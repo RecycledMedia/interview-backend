@@ -29,8 +29,8 @@ def init_db_command():
     db = get_db()
 
     click.echo('Dropping tables...')
-    db.execute('DROP TABLE users')
-    db.execute('DROP TABLE items')
+    db.execute('DROP TABLE IF EXISTS users')
+    db.execute('DROP TABLE IF EXISTS items')
 
     with current_app.open_resource('data.sql') as f:
         db.executescript(f.read().decode('utf8'))

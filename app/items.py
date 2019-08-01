@@ -1,24 +1,23 @@
 from flask import (
-    Blueprint, flash, render_template, request
+    Blueprint, flash, render_template, request, abort
 )
 
 from .db import get_db
 
-blueprint = Blueprint('users', __name__, url_prefix='/users')
+blueprint = Blueprint('items', __name__, url_prefix='/items')
 
 
 @blueprint.route('/', methods=('GET',))
-def users():
+def items():
     if request.method == 'GET':
         db = get_db()
 
         result = db.execute(
-            'SELECT * FROM users'
+            'SELECT * FROM items'
         ).fetchall()
 
         if result is None:
             flash('error')
-        else:
-            user = result
+        return render_template('/items.html', items=result)
 
-    return render_template('/users.html', users=user)
+    abort(404)

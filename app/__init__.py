@@ -7,7 +7,7 @@ def create_app():
     app = Flask(__name__, instance_relative_config=True)
     app.config.from_mapping(
         SECRET_KEY='dev',
-        DATABASE=os.path.join(app.instance_path, 'flaskr.sqlite'),
+        DATABASE=os.path.join(app.instance_path, 'app.sqlite'),
     )
 
     from . import db
@@ -17,8 +17,8 @@ def create_app():
     def hello():
         return 'Hello, World!'
 
-    from . import users
-    app.register_blueprint(users.blueprint)
+    from . import items
+    app.register_blueprint(items.blueprint)
 
     from . import api
     app.register_blueprint(api.blueprint)

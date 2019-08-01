@@ -3,8 +3,7 @@
 This is a skeleton app for an eCommerce website for buying and selling of items.
 
 ## Install
-You'll need Python3 and SQLite3
-It is highly recommended to use [virtualenv](https://docs.python.org/3/library/venv.html)
+You'll need Python3 and SQLite3. It is highly recommended to use [virtualenv](https://docs.python.org/3/library/venv.html)
 
 Install Flask
 > pip install flask
