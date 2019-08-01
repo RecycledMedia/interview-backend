@@ -1,4 +1,4 @@
-import sqlite3
+import pymysql
 import click
 
 from flask import current_app, g
@@ -7,12 +7,13 @@ from flask.cli import with_appcontext
 
 def get_db():
     if 'db' not in g:
-        g.db = sqlite3.connect(
-            current_app.config['DATABASE'],
-            detect_types=sqlite3.PARSE_DECLTYPES
-        )
-        g.db.row_factory = sqlite3.Row
-
+        g.db = pymysql.connect(
+            host='localhost',
+            user='root',
+            password='rootroot',
+            db='MyDB',
+            cursorclass=pymysql.cursors.DictCursor
+        ).cursor()
     return g.db
 
 
@@ -27,15 +28,6 @@ def close_db(e=None):
 @with_appcontext
 def init_db_command():
     db = get_db()
-
-    click.echo('Dropping tables...')
-    db.execute('DROP TABLE users')
-    db.execute('DROP TABLE items')
-
-    with current_app.open_resource('data.sql') as f:
-        db.executescript(f.read().decode('utf8'))
-
-    click.echo('Initialized the database.')
 
 
 def init_app(app):

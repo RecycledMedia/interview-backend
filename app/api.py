@@ -12,9 +12,11 @@ def users():
     if request.method == 'GET':
         db = get_db()
 
-        rows = db.execute(
+        db.execute(
             'SELECT * FROM users'
-        ).fetchall()
+        )
+
+        rows = db.fetchall()
 
         columns = ['id', 'first_name', 'last_name', 'email', 'gender', 'ip_address']
         result = []
