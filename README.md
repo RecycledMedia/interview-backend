@@ -22,5 +22,7 @@ You'll need Python3, Django and SQLite3 installed.
 Download the django folder.
 Run the following commands to initialize db -
 > python3 manage.py makemigrations msg_system
+
 > python3 manage.py migrate msg_system
+
 > python manage.py runserver
