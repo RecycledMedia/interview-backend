@@ -3,7 +3,6 @@ import os
 from django.db import migrations, models, connection
 
 
-
 class Migration(migrations.Migration):
 
     initial = True
@@ -20,6 +19,9 @@ class Migration(migrations.Migration):
                 ('images', models.TextField()),
                 ('seller_id', models.IntegerField()),
             ],
+            options={
+                'db_table': 'items',
+            },
         ),
         migrations.CreateModel(
             name='Users',
@@ -31,5 +33,8 @@ class Migration(migrations.Migration):
                 ('gender', models.TextField()),
                 ('ip_address', models.TextField()),
             ],
-        )
+            options={
+                'db_table': 'users',
+            },
+        ),
     ]

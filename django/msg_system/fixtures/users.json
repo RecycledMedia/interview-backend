@@ -1,0 +1,112 @@
+[
+    {
+        "model": "msg_system.users",
+        "pk": 1,
+        "fields": {
+            "first_name": "Gaye",
+            "last_name": "Rapport",
+            "email": "grapport0@digg.com",
+            "gender": "Female",
+            "ip_address": "22.150.253.58"
+        }
+    },
+    {
+        "model": "msg_system.users",
+        "pk": 2,
+        "fields": {
+            "first_name": "Kate",
+            "last_name": "Heeran",
+            "email": "kheeran1@godaddy.com",
+            "gender": "Female",
+            "ip_address": "231.13.85.118"
+        }
+    },
+    {
+        "model": "msg_system.users",
+        "pk": 3,
+        "fields": {
+            "first_name": "Bridgette",
+            "last_name": "Dunne",
+            "email": "bdunne2@de.vu",
+            "gender": "Female",
+            "ip_address": "221.157.43.242"
+        }
+    },
+    {
+        "model": "msg_system.users",
+        "pk": 4,
+        "fields": {
+            "first_name": "Odelia",
+            "last_name": "Pavese",
+            "email": "opavese3@amazon.com",
+            "gender": "Female",
+            "ip_address": "113.158.188.115"
+        }
+    },
+    {
+        "model": "msg_system.users",
+        "pk": 5,
+        "fields": {
+            "first_name": "Meredith",
+            "last_name": "McTeggart",
+            "email": "mmcteggart4@illinois.edu",
+            "gender": "Male",
+            "ip_address": "172.12.151.194"
+        }
+    },
+    {
+        "model": "msg_system.users",
+        "pk": 6,
+        "fields": {
+            "first_name": "Karry",
+            "last_name": "Schwand",
+            "email": "kschwand5@pen.io",
+            "gender": "Female",
+            "ip_address": "10.236.75.217"
+        }
+    },
+    {
+        "model": "msg_system.users",
+        "pk": 7,
+        "fields": {
+            "first_name": "Vergil",
+            "last_name": "Kristoffersson",
+            "email": "vkristoffersson6@disqus.com",
+            "gender": "Male",
+            "ip_address": "89.124.50.252"
+        }
+    },
+    {
+        "model": "msg_system.users",
+        "pk": 8,
+        "fields": {
+            "first_name": "Ezekiel",
+            "last_name": "Sokale",
+            "email": "esokale7@un.org",
+            "gender": "Male",
+            "ip_address": "14.87.187.108"
+        }
+    },
+    {
+        "model": "msg_system.users",
+        "pk": 9,
+        "fields": {
+            "first_name": "Marlena",
+            "last_name": "Boykett",
+            "email": "mboykett8@odnoklassniki.ru",
+            "gender": "Female",
+            "ip_address": "74.214.150.193"
+        }
+    },
+    {
+        "model": "msg_system.users",
+        "pk": 10,
+        "fields": {
+            "first_name": "Brittni",
+            "last_name": "Romaint",
+            "email": "bromaint9@wikipedia.org",
+            "gender": "Female",
+            "ip_address": "190.234.134.214"
+        }
+    }
+]

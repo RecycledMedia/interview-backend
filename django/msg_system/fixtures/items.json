@@ -1,0 +1,102 @@
+[
+    {
+        "model": "msg_system.items",
+        "pk": 1,
+        "fields": {
+            "name": "Cheese - Montery Jack",
+            "description": "Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.\\n\\nInteger tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.",
+            "images": "[{\"url\":\"http://dummyimage.com/109x187.png/ff4444/ffffff\"},{\"url\":\"http://dummyimage.com/114x101.jpg/5fa2dd/ffffff\"},{\"url\":\"http://dummyimage.com/137x126.bmp/ff4444/ffffff\"},{\"url\":\"http://dummyimage.com/232x100.png/ff4444/ffffff\"}]",
+            "seller_id": 1
+        }
+    },
+    {
+        "model": "msg_system.items",
+        "pk": 2,
+        "fields": {
+            "name": "Curry Paste - Green Masala",
+            "description": "Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",
+            "images": "[{\"url\":\"http://dummyimage.com/213x131.png/dddddd/000000\"},{\"url\":\"http://dummyimage.com/226x141.jpg/cc0000/ffffff\"},{\"url\":\"http://dummyimage.com/239x238.png/ff4444/ffffff\"}]",
+            "seller_id": 2
+        }
+    },
+    {
+        "model": "msg_system.items",
+        "pk": 3,
+        "fields": {
+            "name": "Ice Cream - Super Sandwich",
+            "description": "Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.\\n\\nSed ante. Vivamus tortor. Duis mattis egestas metus.",
+            "images": "[{\"url\":\"http://dummyimage.com/239x139.png/cc0000/ffffff\"},{\"url\":\"http://dummyimage.com/131x197.bmp/dddddd/000000\"},{\"url\":\"http://dummyimage.com/114x156.jpg/5fa2dd/ffffff\"},{\"url\":\"http://dummyimage.com/159x111.bmp/5fa2dd/ffffff\"}]",
+            "seller_id": 3
+        }
+    },
+    {
+        "model": "msg_system.items",
+        "pk": 4,
+        "fields": {
+            "name": "Pop - Club Soda Can",
+            "description": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.",
+            "images": "[{\"url\":\"http://dummyimage.com/123x166.jpg/cc0000/ffffff\"},{\"url\":\"http://dummyimage.com/144x182.bmp/cc0000/ffffff\"}]",
+            "seller_id": 4
+        }
+    },
+    {
+        "model": "msg_system.items",
+        "pk": 5,
+        "fields": {
+            "name": "Water - Evian 355 Ml",
+            "description": "Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.\\n\\nIn congue. Etiam justo. Etiam pretium iaculis justo.",
+            "images": "[{\"url\":\"http://dummyimage.com/149x176.jpg/cc0000/ffffff\"}]",
+            "seller_id": 5
+        }
+    },
+    {
+        "model": "msg_system.items",
+        "pk": 6,
+        "fields": {
+            "name": "Beef - Kindney, Whole",
+            "description": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
+            "images": "[{\"url\":\"http://dummyimage.com/169x106.jpg/5fa2dd/ffffff\"},{\"url\":\"http://dummyimage.com/209x238.png/dddddd/000000\"},{\"url\":\"http://dummyimage.com/182x116.jpg/cc0000/ffffff\"},{\"url\":\"http://dummyimage.com/159x222.bmp/5fa2dd/ffffff\"},{\"url\":\"http://dummyimage.com/235x185.jpg/5fa2dd/ffffff\"}]",
+            "seller_id": 6
+        }
+    },
+    {
+        "model": "msg_system.items",
+        "pk": 7,
+        "fields": {
+            "name": "Red Snapper - Fillet, Skin On",
+            "description": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.\\n\\nVestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
+            "images": "[{\"url\":\"http://dummyimage.com/142x210.bmp/dddddd/000000\"},{\"url\":\"http://dummyimage.com/132x210.jpg/ff4444/ffffff\"},{\"url\":\"http://dummyimage.com/161x219.jpg/ff4444/ffffff\"},{\"url\":\"http://dummyimage.com/212x196.jpg/cc0000/ffffff\"},{\"url\":\"http://dummyimage.com/153x231.bmp/cc0000/ffffff\"}]",
+            "seller_id": 7
+        }
+    },
+    {
+        "model": "msg_system.items",
+        "pk": 8,
+        "fields": {
+            "name": "Spinach - Frozen",
+            "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.",
+            "images": "[{\"url\":\"http://dummyimage.com/129x231.jpg/dddddd/000000\"},{\"url\":\"http://dummyimage.com/143x144.bmp/cc0000/ffffff\"},{\"url\":\"http://dummyimage.com/227x245.bmp/cc0000/ffffff\"}]",
+            "seller_id": 8
+        }
+    },
+    {
+        "model": "msg_system.items",
+        "pk": 9,
+        "fields": {
+            "name": "Beef - Flank Steak",
+            "description": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
+            "images": "[{\"url\":\"http://dummyimage.com/106x176.jpg/5fa2dd/ffffff\"},{\"url\":\"http://dummyimage.com/170x215.jpg/cc0000/ffffff\"}]",
+            "seller_id": 9
+        }
+    },
+    {
+        "model": "msg_system.items",
+        "pk": 10,
+        "fields": {
+            "name": "Pepper - White, Ground",
+            "description": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.\\n\\nInteger ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",
+            "images": "[{\"url\":\"http://dummyimage.com/221x126.bmp/ff4444/ffffff\"},{\"url\":\"http://dummyimage.com/243x214.bmp/5fa2dd/ffffff\"},{\"url\":\"http://dummyimage.com/235x204.jpg/dddddd/000000\"}]",
+            "seller_id": 10
+        }
+    }
+]
