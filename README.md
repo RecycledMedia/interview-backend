@@ -19,11 +19,14 @@ Install Flask
 ## To run Django application ->
 You'll need Python3, Django and SQLite3 installed.
 
-## Install Django
+### Install Django
 > pip3 install django
 
-## Running project
+### Running project
 Make sure you are in the 'interview-backend/django' folder and then run the following command
 > python manage.py runserver
 
 You can see the results at http://127.0.0.1:8000
+
+## Rails application
+[Rails backend](./rails-backend/README.md)
