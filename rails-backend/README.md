@@ -3,7 +3,7 @@
 ## Installation
 ### Dependencies
 **Note**: Execute commands below while in `rails-backend` directory
-1. Make sure you have at least Ruby 2.3
+1. Make sure you have at least Ruby 2.5
 2. Install bundler
 ```sh
 gem install bundler
