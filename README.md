@@ -15,7 +15,7 @@ You'll need Python3 and SQLite3. It is highly recommended to use [virtualenv](ht
 
 ### Run the application in Debug mode
 > FLASK_DEBUG=1 flask run
-\\
+
 
 ## Django installation
 You'll need Python3, Django and SQLite3 installed.
