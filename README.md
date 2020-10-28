@@ -28,5 +28,11 @@ Make sure you are in the 'interview-backend/django' folder and then run the foll
 
 You can see the results at http://127.0.0.1:8000
 
+(On gitpod.io)
+> python3 manage.py runserver 8080
+
+You can see the results/endpoints in the "Preview" panel, on the right side.
+
+
 ## --- Rails installation ---
 [Rails app](./rails-app/README.md)
