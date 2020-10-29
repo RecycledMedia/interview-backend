@@ -13,7 +13,7 @@ def create_app():
     from . import db
     db.init_app(app)
 
-    @app.route('/hello')
+    @app.route('/')
     def hello():
         return 'Hello, World!'
 

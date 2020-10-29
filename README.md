@@ -1,4 +1,4 @@
-# Onsite Interview Exercise
+# Remote Coding Interview
 
 This is a skeleton app for an eCommerce website for buying and selling of items.
 
@@ -13,7 +13,7 @@ You'll need Python3 and SQLite3. It is highly recommended to use [virtualenv](ht
 ### Set the environment variable
 > cd flask-app
 
-> EXPORT FLASK_APP=.
+> export FLASK_APP=.
 
 ### Load the (SQLite3) database
 > flask init-db
@@ -21,8 +21,9 @@ You'll need Python3 and SQLite3. It is highly recommended to use [virtualenv](ht
 ### Run the application
 > flask run
 
+
 ## --- Django installation ---
-You'll need Python3, Django and SQLite3 installed.
+You'll need Python3 and SQLite3 installed.
 
 ### Install Django
 > pip3 install django
