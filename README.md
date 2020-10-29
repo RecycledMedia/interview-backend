@@ -10,11 +10,16 @@ You'll need Python3 and SQLite3. It is highly recommended to use [virtualenv](ht
 ### Install Flask
 > pip install flask
 
+### Set the environment variable
+> cd flask-app
+
+> EXPORT FLASK_APP=.
+
 ### Load the (SQLite3) database
 > flask init-db
 
-### Run the application in Debug mode
-> FLASK_DEBUG=1 flask run
+### Run the application
+> flask run
 
 ## --- Django installation ---
 You'll need Python3, Django and SQLite3 installed.
