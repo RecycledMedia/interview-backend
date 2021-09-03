@@ -27,9 +27,10 @@ You'll need Python3 and SQLite3 installed.
 
 ### Install Django
 > pip3 install django
+> pip3 install djangorestframework
 
 ### Running project
-Make sure you are in the 'interview-backend/django' folder and then run the following command
+Make sure you are in the 'interview-backend/django-app' folder and then run the following command
 > python manage.py runserver
 
 You can see the results at http://127.0.0.1:8000
